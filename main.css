@@ -1,0 +1,31 @@
+:root {
+    --text_color: rgb(165, 42, 144);
+}
+h2 {
+    color: green;
+    font-size: 25px;
+}
+/* #: khi là id(point: 100) */
+#first_h {
+    color: grey;
+    font-size: 15px;
+}
+/* .: khi là class(point: 10) */
+.second_h {
+    color: purple;
+    font-size: 20px;
+}
+/* universal: tất cả đều là style này (point: 0) */
+* {
+    color: violet;
+}
+/* li {
+    color: yellow;
+} */
+/* tính kế thừa nhưng mức độ ưu tiên thấp hơn */
+ol {
+    color: green;
+}
+* {
+    color: var(--text_color);
+}
